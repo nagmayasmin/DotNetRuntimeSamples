@@ -10,3 +10,5 @@ SpatialFilter sample
 ===================
 This sample displays the all cities within a state using GeometryEngine.Intersection() method.
 
+https://developers.arcgis.com/net/latest/wpf/api-reference/html/M_Esri_ArcGISRuntime_Geometry_GeometryEngine_Intersection.htm
+
