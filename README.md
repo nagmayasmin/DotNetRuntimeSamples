@@ -12,3 +12,8 @@ This sample displays the all cities within a state using GeometryEngine.Intersec
 
 https://developers.arcgis.com/net/latest/wpf/api-reference/html/M_Esri_ArcGISRuntime_Geometry_GeometryEngine_Intersection.htm
 
+FeatureCollection sample
+========================
+
+This sample application creates  a feature collection from a feature layer, "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Wildfire/FeatureServer/0"
+and then creates a feature layer which is saved as an AGOL item.
