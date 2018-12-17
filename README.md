@@ -17,3 +17,8 @@ FeatureCollection sample
 
 This sample application creates  a feature collection from a feature layer, "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Wildfire/FeatureServer/0"
 and then creates a feature layer which is saved as an AGOL item.
+
+DicSymbolStyle sample
+=====================
+
+This sample displays a custom ArcGIS pro symbol (.stylx) using SymbolStyle class in Runtime application. The key field in stylx file is necessary to display the symbol just like in ArcGIS Pro. 
