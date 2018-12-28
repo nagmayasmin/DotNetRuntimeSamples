@@ -1,4 +1,4 @@
-# DotNetRuntimeSamples
+# ArcGIS Runtime .Net Samples
 
 Display Legend sample
 =====================
