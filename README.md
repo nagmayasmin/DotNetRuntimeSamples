@@ -23,3 +23,8 @@ Display Dictionary SymbolStyle sample
 
 This sample displays a custom ArcGIS pro symbol (.stylx) using SymbolStyle class in Runtime application. The key field in stylx file is necessary to display the symbol just like in ArcGIS Pro. 
 https://developers.arcgis.com/net/latest/wpf/api-reference/html/T_Esri_ArcGISRuntime_Symbology_SymbolStyle.htm
+
+Search using MVVM
+==================
+
+The sample uses MVVM model.
