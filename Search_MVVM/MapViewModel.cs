@@ -64,7 +64,18 @@ namespace Search_MVVM
             }
         }
 
-        public List<Feature> FeatureList { get; set; }
+        private List<Feature> _featureList;
+        public List<Feature> FeatureList
+        {
+            get { return _featureList; }
+
+            set
+            {
+                _featureList = value;
+                if (PropertyChanged != null)
+                    PropertyChanged(this, new PropertyChangedEventArgs("FeatureList"));
+            }
+        }
 
         #endregion
 
@@ -115,9 +126,7 @@ namespace Search_MVVM
 
             FeatureList = featureQueryResults.ToList();
 
-            if (PropertyChanged != null)
-                PropertyChanged(this, new PropertyChangedEventArgs("FeatureList"));
-        }
+         }
     }
 
     #region SearchCommand
