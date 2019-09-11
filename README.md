@@ -27,4 +27,4 @@ https://developers.arcgis.com/net/latest/wpf/api-reference/html/T_Esri_ArcGISRun
 Search features using MVVM
 ===========================
 
-The sample uses MVVM model.
+The sample uses MVVM model to search for parcel that has pool permit. 
